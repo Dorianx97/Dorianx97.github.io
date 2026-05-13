@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heuro — Calcul du salaire net et des heures travaillées</title>
+<meta name="description" content="Heuro est une application iPhone gratuite qui calcule votre salaire net et suit vos heures travaillées. Disponible sur l'App Store.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0D0D12;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container {
+    max-width: 600px;
+    text-align: center;
+  }
+  .badge {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(108, 99, 255, 0.15);
+    border: 1px solid #6C63FF;
+    border-radius: 999px;
+    color: #A09AFF;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, #fff, #A09AFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  p { color: #aaa; font-size: 18px; line-height: 1.6; margin-bottom: 32px; }
+  .links { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  a {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #6C63FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: opacity 0.2s;
+  }
+  a:hover { opacity: 0.85; }
+  a.secondary {
+    background: transparent;
+    border: 1px solid #333;
+    color: #aaa;
+  }
+  footer {
+    margin-top: 48px;
+    color: #555;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <span class="badge">⏱ Application iPhone</span>
+    <h1>Heuro</h1>
+    <p>
+      Suivez vos heures travaillées et calculez votre salaire net en quelques secondes.
+      Gratuit, sans inscription, 100% local.
+    </p>
+    <div class="links">
+      <a href="https://apps.apple.com/fr/app/heuro/id6762532451">Télécharger sur l'App Store</a>
+      <a href="/chronosalaire-privacy/privacy-policy.html" class="secondary">Politique de confidentialité</a>
+    </div>
+    <footer>
+      © 2026 Dorian Roux · contact: roux.dorian@icloud.com
+    </footer>
+  </div>
+</body>
+</html>
